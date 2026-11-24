@@ -1,0 +1,3 @@
+FLAG PART 3/3: Brute_Force_2026}
+
+Bonus: this fragment is also inside the protected backup.zip archive.

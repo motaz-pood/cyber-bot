@@ -1,0 +1,5 @@
+HINT 1
+- Anonymous FTP access is enabled.
+- There is a second local FTP account named ftpuser.
+- The password is weak enough to find with a small authorized wordlist.
+- FTP is listening on TCP port 2121 in the default setup.

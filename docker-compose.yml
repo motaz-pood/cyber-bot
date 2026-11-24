@@ -1,0 +1,20 @@
+services:
+  ftp-lab:
+    build: .
+    container_name: cyber-bot-ftp-lab
+    environment:
+      PYTHONUNBUFFERED: "1"
+      LAB_ADVERTISE_ADDRESS: ${LAB_ADVERTISE_ADDRESS:-}
+    ports:
+      - target: 2121
+        published: "${LAB_FTP_PORT:-2121}"
+        host_ip: ${LAB_BIND_ADDRESS:-127.0.0.1}
+        protocol: tcp
+      - target: 8080
+        published: "${LAB_HTTP_PORT:-8080}"
+        host_ip: ${LAB_BIND_ADDRESS:-127.0.0.1}
+        protocol: tcp
+      - target: 6000-6009
+        published: 6000-6009
+        host_ip: ${LAB_BIND_ADDRESS:-127.0.0.1}
+        protocol: tcp

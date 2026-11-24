@@ -1,0 +1,3 @@
+FLAG PART 1/3: CyberBot{FTP_
+
+You found the anonymous-access fragment. Continue exploring the FTP service.

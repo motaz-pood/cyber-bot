@@ -1,0 +1,4 @@
+HINT 2
+- backup.zip is protected with a deliberately weak password.
+- Use a local wordlist with fcrackzip or zip2john/john.
+- The password is a common six-digit number.

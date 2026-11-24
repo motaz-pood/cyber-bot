@@ -1,0 +1,13 @@
+========================================
+  Welcome to Cyber-Bot FTP Pentest Lab
+========================================
+
+This is an intentionally vulnerable FTP service for isolated training.
+
+Challenge:
+1. Find the anonymous-access flag fragment.
+2. Discover the weak password for the ftpuser account.
+3. Retrieve and crack the password-protected backup archive.
+4. Combine the three flag fragments.
+
+Only test this lab on a machine/network you own or are explicitly authorized to test.
